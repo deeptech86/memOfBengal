@@ -1,0 +1,88 @@
+[debug] [2023-09-04T05:52:31.717Z] ----------------------------------------------------------------------
+[debug] [2023-09-04T05:52:31.720Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-09-04T05:52:31.720Z] CLI Version:   12.5.2
+[debug] [2023-09-04T05:52:31.720Z] Platform:      darwin
+[debug] [2023-09-04T05:52:31.721Z] Node Version:  v20.1.0
+[debug] [2023-09-04T05:52:31.721Z] Time:          Sun Sep 03 2023 22:52:31 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-09-04T05:52:31.721Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-04T05:52:31.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-04T05:52:31.726Z] > authorizing via signed-in user (daipayan.sarkar.25@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/dipsarkar/Downloads/yamifood
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-04T05:52:38.740Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-09-04T05:52:39.284Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-04T05:52:39.284Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mofb-e8720 (MofB) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-09-04T05:53:16.118Z] Error: ENOTDIR: not a directory, scandir '/Users/dipsarkar/Downloads/yamifood/index.html'
+    at Object.readdirSync (node:fs:1504:3)
+    at Object.createFileSync (/usr/local/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:55:10)
+    at Config.writeProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:152:12)
+    at /usr/local/lib/node_modules/firebase-tools/lib/config.js:176:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (/usr/local/lib/node_modules/firebase-tools/lib/init/features/hosting/index.js:141:13)
+    at async init (/usr/local/lib/node_modules/firebase-tools/lib/init/index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-09-04T05:53:21.136Z] ----------------------------------------------------------------------
+[debug] [2023-09-04T05:53:21.138Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-09-04T05:53:21.138Z] CLI Version:   12.5.2
+[debug] [2023-09-04T05:53:21.138Z] Platform:      darwin
+[debug] [2023-09-04T05:53:21.139Z] Node Version:  v20.1.0
+[debug] [2023-09-04T05:53:21.139Z] Time:          Sun Sep 03 2023 22:53:21 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-09-04T05:53:21.139Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-04T05:53:21.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-04T05:53:21.144Z] > authorizing via signed-in user (daipayan.sarkar.25@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/dipsarkar/Downloads/yamifood
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-04T05:53:26.138Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-09-04T05:53:26.737Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-04T05:53:26.737Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mofb-e8720 (MofB) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
